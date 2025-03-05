@@ -16,16 +16,22 @@ Model quantization with TensorFlow Lite for embedded deployment
 | TFLite FP16 (.tflite)  | 4.28 MB    | 90.05%   |
 
 ## Project Structure
-.
+
 ├── mobilenetv2_optimization_embedded_fp16.py   # Main implementation script
+
 ├── transfer_learning_model.h5                  # Full precision Keras model
+
 ├── model_fp16.tflite                           # Quantized TFLite model for deployment
+
 └── README.md                                   # This file
 
 ## Requirements 
 tensorflow>=2.7.0
+
 tensorflow-model-optimization
+
 numpy
+
 scikit-learn
 
 ## Implementation Details
